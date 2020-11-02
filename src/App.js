@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
-import RoomPage from './pages/RoomPage';
+import RoomPage from './pages/room/RoomPage';
 import SingleRoom from './pages/SingleRoom';
 
 function App() {
