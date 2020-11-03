@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const SingleRoom = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const SingleRoom = () => (
+  <div />
+);
 
-export default SingleRoom
+export default SingleRoom;

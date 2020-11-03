@@ -7,11 +7,11 @@ import RoomContextProvider from './context';
 
 ReactDOM.render(
   <React.StrictMode>
-  <RoomContextProvider>
-    <App />
+    <RoomContextProvider>
+      <App />
     </RoomContextProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
