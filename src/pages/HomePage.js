@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Hero from '../components/hero/Hero';
 import Banner from '../components/banner/Banner';
+import Services from '../components/services/Services';
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             </Link>
           </Banner>
             </Hero>
+            <Services/>
         </div>
     )
 }
