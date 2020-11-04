@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './roomPage.module.css';
 import Hero from '../../components/hero/Hero';
 import Banner from '../../components/banner/Banner';
+import RoomContainer from '../../components/RoomContainer';
 
 const RoomPage = () => (
   <div>
@@ -13,6 +14,7 @@ const RoomPage = () => (
         </Link>
       </Banner>
     </Hero>
+    <RoomContainer />
   </div>
 );
 
