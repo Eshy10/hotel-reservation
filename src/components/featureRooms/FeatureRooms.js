@@ -7,7 +7,6 @@ import styles from './featureRooms.module.css';
 
 const FeatureRooms = () => {
   const { loading, featuredRooms } = useContext(RoomContext);
-  console.log(featuredRooms);
   return (
     <section className={styles.featuredRooms}>
       <Title title="featured rooms" />

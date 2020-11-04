@@ -22,7 +22,7 @@ function App() {
             component={RoomPage}
           />
           <Route
-            path="/singlerooms/room"
+            path="/singlerooms/:room"
             exact
             component={SingleRoom}
           />
