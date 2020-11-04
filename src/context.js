@@ -33,9 +33,14 @@ const RoomContextProvider = props => {
     roomData();
   }, []);
 
+  const getRooms = slug => {
+    const room = [...rooms].find(room => room.slug === slug);
+    return room;
+  };
+
   return (
     <RoomContext.Provider value={{
-      rooms, featuredRooms, sortedRooms, loading,
+      rooms, featuredRooms, sortedRooms, loading, getRooms,
     }}
     >
       {props.children}
