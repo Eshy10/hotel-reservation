@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import React, { useState } from 'react';
 import {
-  FaCocktail, FaHiking, FaShuttleVan, FaBeer,
+  FaCocktail, FaHiking, FaShuttleVan, FaSnowboarding,
 } from 'react-icons/fa';
 import { v4 as uuid_v4 } from 'uuid';
 import Title from '../title/Title';
@@ -28,8 +28,8 @@ const Services = () => {
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?',
     },
     {
-      icon: <FaBeer />,
-      title: 'Strongest Beer',
+      icon: <FaSnowboarding />,
+      title: 'Surfing',
       info:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?',
     },

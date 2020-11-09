@@ -2,7 +2,8 @@
     padding: 5rem 0;
   }
   .services {
-    background: var(--darkGrey);
+    background: black;
+    color: gainsboro;
     text-align: center;
   }
   .servicesCenter {
