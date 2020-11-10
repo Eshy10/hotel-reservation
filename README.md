@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
 
-## Available Scripts
+<br />
+<p align="center">
+   <a href="https://github.com/Eshy10/hotel-reservation">
+    <p align="center"> <img src="./src/images/defaultBcg.jpg" alt="React-logo" width="300" height="200"> </p>
+  </a>
+  <h2 align="center">Hotel Reservation</h2>
+  <h3 align="center"> Built with React Hooks, context API and Contentful API which shows list of availables and can be filtered based on the categories </h3>
 
-In the project directory, you can run:
+  <p align="center">
+    <a href="https://github.com/Eshy10/hotel-reservation/issues">Report Bug</a>
+    · 
+    <a href="https://github.com/Eshy10/hotel-reservation/issues">Request Feature</a>
+  </p>
+</p>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Live Link (Netlify)](#live-link-netlify)
+- [Installation](#installation)
+- [Built With](#built-with)
+- [Authors](#authors)
+- [Show your support](#show-your-support)
+- [📝 License](#-license)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm test`
+The Hotel Reservation webpage is a beach resort template which is built with React Hooks, Context API and Contentful API.Data are gotten from the Contentful API and are retrieved through the Context API. Rooms can be filtered base on the categories which depends on the type, price and size.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![chrome-capture (14)](https://user-images.githubusercontent.com/52670459/98672633-5d099200-2356-11eb-98c2-167e8c00e414.gif)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Live Link (Netlify) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Link (Netlify)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Click here]( https://beachresortt.netlify.app)
 
-### `npm run eject`
+<!-- INSTALLATION -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo
+```sh
+git clone https://github.com/Eshy10/hotel-reservation.git
+```
+2. Open the project Directory in your local machine
+```
+cd hotel-reservation
+```
+1. Install NPM packages
+```sh
+npm install
+```
+4. Run Application
+```JS
+npm start
+```
+<!-- BUILD WITH -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React
+- React Hooks
+- Contentful API
+- Context API
+- prop-types
+- NPM
+- Github
+- Netlify
 
-## Learn More
+<!-- CONTACT -->
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Adewale Modupe** 
+    
+- [LinkedIn](https://www.linkedin.com/in/adewale-adeshola/)
+- [GitHub](https://github.com/Eshy10)
+- [Email](adewalebose15@gmail.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Eshy10/hotel-reservation.svg?style=flat-square
+[contributors-url]: https://github.com/Eshy10/hotel-reservation/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Eshy10/hotel-reservation.svg?style=flat-square
+[forks-url]: https://github.com/Eshy10/hotel-reservation/network/members
+[stars-shield]: https://img.shields.io/github/stars/Eshy10/hotel-reservation.svg?style=flat-square
+[stars-url]: https://github.com/Eshy10/hotel-reservation/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Eshy10/hotel-reservation.svg?style=flat-square
+[issues-url]: https://github.com/Eshy10/hotel-reservation/issues
 
-### Analyzing the Bundle Size
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
