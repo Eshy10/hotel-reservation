@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { createContext, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import items from './data';
+import client from './Contentful';
 
 export const RoomContext = createContext();
 
@@ -49,7 +49,7 @@ const RoomContextProvider = props => {
     }
 
     if (capacity !== 1) {
-      tempRooms = tempRooms.filter(room => room.capacity >= values.capacity);
+      tempRooms = tempRooms.filter(room => room.capacity >= capacity);
     }
 
     tempRooms = tempRooms.filter(room => room.price <= price);
@@ -72,13 +72,17 @@ const RoomContextProvider = props => {
     }));
   };
 
-  useEffect(() => {
-    const rooms = formatData(items);
-    const featuredRooms = rooms.filter(room => room.featured === true);
+  const getData = async () => {
+    try {
+      const response = await client.getEntries({
+        content_type: 'beachResort',
+        order: 'sys.createdAt',
+      });
+      const rooms = formatData(response.items);
+      const featuredRooms = rooms.filter(room => room.featured === true);
 
-    const maxPrice = Math.max(...rooms.map(item => item.price));
-    const maxSize = Math.max(...rooms.map(item => item.size));
-    const roomData = () => {
+      const maxPrice = Math.max(...rooms.map(item => item.price));
+      const maxSize = Math.max(...rooms.map(item => item.size));
       setValues(prevState => ({
         ...prevState,
         rooms,
@@ -90,8 +94,13 @@ const RoomContextProvider = props => {
         maxPrice,
         maxSize,
       }));
-    };
-    roomData();
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getData();
   }, []);
 
   const getRooms = slug => {
