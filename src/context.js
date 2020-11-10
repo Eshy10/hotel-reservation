@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable react/destructuring-assignment */
 import React, { createContext, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
