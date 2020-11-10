@@ -8,7 +8,7 @@
 <br />
 <p align="center">
    <a href="https://github.com/Eshy10/hotel-reservation">
-    <p align="center"> <img src="./src/asset/soccer.jpg" alt="React-logo" width="200" height="200"> </p>
+    <p align="center"> <img src="./src/images/defaultBcg.jpg" alt="React-logo" width="300" height="200"> </p>
   </a>
   <h2 align="center">Hotel Reservation</h2>
   <h3 align="center"> Built with React Hooks, context API and Contentful API which shows list of availables and can be filtered based on the categories </h3>
@@ -37,7 +37,7 @@
 
 The Hotel Reservation webpage is a beach resort template which is built with React Hooks, Context API and Contentful API,data are gotten from the Contentful API and are retrieved through the Context API. Rooms can be filtered base on the categories which depends on the type, price and size.
 
-![defaultBcg](https://user-images.githubusercontent.com/52670459/98670686-5594b980-2353-11eb-9d7d-2c6576a21254.jpg)
+![chrome-capture (14)](https://user-images.githubusercontent.com/52670459/98672633-5d099200-2356-11eb-98c2-167e8c00e414.gif)
 
 
 <!-- Live Link (Netlify) -->
