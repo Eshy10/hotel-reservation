@@ -1,0 +1,66 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    background: var(--offWhite);
+    z-index: 1;
+  }
+  .navHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .navIcon {
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+  }
+  .navLinks {
+    height: 0;
+    overflow: hidden;
+    transition: var(--mainTransition);
+    list-style-type: none;
+  }
+  .navLinks a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0;
+    color: var(--mainBlack);
+    transition: var(--mainTransition);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: var(--mainSpacing);
+  }
+  .navLinks a:hover {
+    color: var(--primaryColor);
+  }
+  
+  .showNav {
+    height: 100px;
+  }
+  @media screen and (min-width: 768px) {
+    .navBtn {
+      display: none;
+    }
+    .navCenter {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+    }
+    .navLinks {
+      height: auto;
+      display: flex;
+      margin-left: 4rem;
+    }
+    .navLinks a {
+      margin: 0 1rem;
+      padding: 0.5rem 0;
+    }
+  }

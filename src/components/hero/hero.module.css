@@ -1,0 +1,7 @@
+.defaultHero {
+  min-height: calc(100vh - 66px);
+  background: url("../../images/defaultBcg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

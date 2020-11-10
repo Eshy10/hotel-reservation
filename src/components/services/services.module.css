@@ -1,0 +1,41 @@
+.services {
+    padding: 5rem 0;
+  }
+  .services {
+    background: black;
+    color: gainsboro;
+    text-align: center;
+  }
+  .servicesCenter {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
+  }
+  .service span {
+    display: inline-block;
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .services h6 {
+    letter-spacing: var(--mainSpacing);
+  }
+  .services p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 992px) {
+    .servicesCenter {
+      width: 95vw;
+      max-width: 1170px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .services p {
+      width: 100%;
+    }
+  }
