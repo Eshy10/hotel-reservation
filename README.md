@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The Hotel Reservation webpage is a beach resort template which is built with React Hooks, Context API and Contentful API,data are gotten from the Contentful API and are retrieved through the Context API. Rooms can be filtered base on the categories which depends on the type, price and size.
+The Hotel Reservation webpage is a beach resort template which is built with React Hooks, Context API and Contentful API.Data are gotten from the Contentful API and are retrieved through the Context API. Rooms can be filtered base on the categories which depends on the type, price and size.
 
 ![chrome-capture (14)](https://user-images.githubusercontent.com/52670459/98672633-5d099200-2356-11eb-98c2-167e8c00e414.gif)
 
@@ -98,7 +98,7 @@ Give a ⭐️ if you like this project!
 [contributors-url]: https://github.com/Eshy10/hotel-reservation/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Eshy10/hotel-reservation.svg?style=flat-square
 [forks-url]: https://github.com/Eshy10/hotel-reservation/network/members
-[stars-shield]: https://img.shields.io/github/stars/Eshy10/hotel-reseration.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/Eshy10/hotel-resevration.svg?style=flat-square
 [stars-url]: https://github.com/Eshy10/hotel-reservation/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Eshy10/hotel-reservation.svg?style=flat-square
 [issues-url]: https://github.com/Eshy10/hotel-reservation/issues
