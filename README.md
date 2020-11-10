@@ -98,7 +98,7 @@ Give a ⭐️ if you like this project!
 [contributors-url]: https://github.com/Eshy10/hotel-reservation/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Eshy10/hotel-reservation.svg?style=flat-square
 [forks-url]: https://github.com/Eshy10/hotel-reservation/network/members
-[stars-shield]: https://img.shields.io/github/stars/Eshy10/hotel-resevration.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/Eshy10/hotel-reservation.svg?style=flat-square
 [stars-url]: https://github.com/Eshy10/hotel-reservation/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Eshy10/hotel-reservation.svg?style=flat-square
 [issues-url]: https://github.com/Eshy10/hotel-reservation/issues
